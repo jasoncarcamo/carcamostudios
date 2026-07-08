@@ -1,0 +1,77 @@
+.service-pills{
+
+    margin-top:4rem;
+
+}
+
+.service-pills__header{
+
+    margin-bottom:2rem;
+
+}
+
+.service-pills__header h2{
+
+    margin-bottom:.5rem;
+
+    font-size:2rem;
+
+}
+
+.service-pills__header p{
+
+    color:var(--muted-text);
+
+}
+
+.service-pills__list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:1rem;
+
+}
+
+.service-pills__list li{
+
+    list-style:none;
+
+}
+
+.service-pill{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:.9rem 1.4rem;
+
+    border:1px solid var(--border-color);
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.03);
+
+    color:var(--text-color);
+
+    font-size:.9rem;
+
+    transition:var(--transition);
+
+}
+
+.service-pill:hover{
+
+    background:var(--primary-color);
+
+    border-color:var(--primary-color);
+
+    color:#ffffff;
+
+    transform:translateY(-3px);
+
+}
