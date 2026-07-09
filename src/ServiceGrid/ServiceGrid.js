@@ -58,33 +58,33 @@ class ServiceGrid extends Component {
                     <div className="service-grid__cards">
 
                         {this.renderCard(
-                            "Custom Business Websites",
-                            "Professionally designed websites tailored to your brand, built to engage visitors and convert them into customers."
+                            "Custom Website Design",
+                            "Professional custom websites designed to reflect your brand, engage visitors, generate leads, and help your business grow online."
                         )}
 
                         {this.renderCard(
-                            "Mobile-Responsive Design",
-                            "Every website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones."
+                            "Responsive Web Development",
+                            "Mobile-first websites that deliver a seamless experience across desktops, laptops, tablets, and smartphones while meeting modern web standards."
                         )}
 
                         {this.renderCard(
-                            "Full-Stack Web Solutions",
-                            "From business websites to custom web applications, we develop scalable solutions that grow with your business."
+                            "Full-Stack Web Development",
+                            "Scalable full-stack web applications and custom business solutions built for performance, security, and long-term growth."
                         )}
 
                         {this.renderCard(
-                            "Performance & SEO",
-                            "Fast-loading websites optimized for search engines, Core Web Vitals, and improved online visibility."
+                            "SEO & Website Performance",
+                            "SEO-optimized websites with fast loading speeds, Core Web Vitals optimization, structured data, and technical SEO to improve search visibility."
                         )}
 
                         {this.renderCard(
-                            "Social Media Integration",
-                            "Built with Open Graph, X (Twitter) Cards, and Google-ready metadata so your website looks professional when shared online."
+                            "Social Media & Search Integration",
+                            "Google-ready websites featuring Open Graph, X (Twitter) Cards, rich metadata, XML sitemaps, robots.txt, and Schema.org structured data."
                         )}
 
                         {this.renderCard(
-                            "Ongoing Support & Growth",
-                            "Whether you need updates, new features, or continued improvements, we're here to help your website evolve with your business."
+                            "Website Maintenance & Support",
+                            "Reliable website maintenance, security updates, content changes, performance monitoring, backups, and ongoing technical support."
                         )}
 
                     </div>

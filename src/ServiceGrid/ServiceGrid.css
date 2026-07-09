@@ -48,13 +48,83 @@
 
     transition:var(--transition);
 
+    position:relative;
+
+    overflow:hidden;
+
+    transition:
+
+        transform .35s,
+
+        border-color .35s,
+
+        box-shadow .35s;
+
 }
 
 .service-card:hover{
 
-    transform:translateY(-6px);
+    transform:translateY(-10px);
 
     border-color:var(--primary-color);
+
+}
+
+.service-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--gradient);
+
+    transition:.4s;
+
+}
+
+.service-card:hover::before{
+
+    width:100%;
+
+}
+
+.service-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        radial-gradient(
+
+            circle at top,
+
+            rgba(139,92,246,.18),
+
+            transparent 65%
+
+        );
+
+    opacity:0;
+
+    transition:.4s;
+
+}
+
+.service-card:hover::after{
+
+    opacity:1;
 
 }
 

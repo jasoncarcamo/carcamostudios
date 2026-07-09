@@ -53,7 +53,7 @@ class Header extends Component {
                     <div className="header__actions">
 
                         <a
-                            href="mailto:hello@carcamostudios.com"
+                            href="mailto:contact@carcamostudios.com"
                             className="header__button"
                         >
                             Let's Talk

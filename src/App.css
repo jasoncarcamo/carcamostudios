@@ -8,75 +8,6 @@
 
 }
 
-/* Purple glow */
-
-.app::before{
-
-    content:"";
-
-    position:fixed;
-
-    top:-300px;
-
-    right:-250px;
-
-    width:700px;
-
-    height:700px;
-
-    border-radius:50%;
-
-    background:
-
-        radial-gradient(
-
-            rgba(139,92,246,.25),
-
-            transparent 70%
-
-        );
-
-    filter:blur(80px);
-
-    pointer-events:none;
-
-    z-index:-1;
-
-}
-
-.app::after{
-
-    content:"";
-
-    position:fixed;
-
-    bottom:-350px;
-
-    left:-250px;
-
-    width:650px;
-
-    height:650px;
-
-    border-radius:50%;
-
-    background:
-
-        radial-gradient(
-
-            rgba(168,85,247,.15),
-
-            transparent 70%
-
-        );
-
-    filter:blur(120px);
-
-    pointer-events:none;
-
-    z-index:-1;
-
-}
 
 section{
 
@@ -179,6 +110,10 @@ section{
     flex-direction:column;
 
     gap:2rem;
+
+    animation:
+
+        slideUp .8s ease forwards;
 
 }
 

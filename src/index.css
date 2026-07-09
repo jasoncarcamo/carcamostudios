@@ -39,7 +39,6 @@
       rgba(139,92,246,.18),
       transparent 40%);
 
-  --transition: .3s ease;
 
   --radius-small: 8px;
   --radius: 14px;
@@ -57,11 +56,6 @@
   box-sizing:border-box;
 }
 
-html{
-
-  scroll-behavior:smooth;
-
-}
 
 body{
 
@@ -80,6 +74,7 @@ body{
   overflow-x:hidden;
 
   line-height:1.6;
+  width: 100%;
 
 }
 

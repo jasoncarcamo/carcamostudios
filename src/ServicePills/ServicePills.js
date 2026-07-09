@@ -6,20 +6,18 @@ class ServicePills extends Component {
     render() {
 
         const services = [
-
-            "Web Design",
-            "Web Development",
-            "UI / UX",
-            "React",
-            "JavaScript",
-            "HTML5",
-            "CSS3",
-            "SEO",
-            "Branding",
-            "Hosting",
-            "Accessibility",
-            "Performance"
-
+            "Custom Website Design",
+            "Website Redesign",
+            "Responsive Web Design",
+            "Small Business Websites",
+            "Full-Stack Web Development",
+            "E-Commerce Websites",
+            "Search Engine Optimization (SEO)",
+            "Website Performance Optimization",
+            "Accessibility (WCAG)",
+            "Website Maintenance & Support",
+            "Hosting & Deployment",
+            "Lead Generation & Contact Forms"
         ];
 
         return (

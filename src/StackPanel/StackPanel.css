@@ -8,6 +8,26 @@
 
 }
 
+.stack-panel{
+
+    transition:
+
+        transform .35s,
+
+        border-color .35s,
+
+        box-shadow .35s;
+
+}
+
+.stack-panel:hover{
+
+    transform:
+
+        translateY(-8px);
+
+}
+
 .stack-card{
 
     padding:2rem;
