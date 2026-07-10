@@ -67,7 +67,7 @@ class App extends Component {
 
                         <article>
 
-                            <Countdown
+                            <CountDown
                                 targetDate="2026-07-23T00:00:00"
                             />
 
