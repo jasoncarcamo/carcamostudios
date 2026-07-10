@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./CountDown.css";
 
-class Countdown extends Component {
+class CountDown extends Component {
 
     constructor(props) {
 
@@ -155,4 +155,4 @@ class Countdown extends Component {
 
 }
 
-export default Countdown;
+export default CountDown;
