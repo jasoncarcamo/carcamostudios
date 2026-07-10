@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import StackPanel from "./StackPanel/StackPanel";
-import Countdown from "./CountDown/CountDown";
+import CountDown from "./CountDown/CountDown";
 import ServicePills from "./ServicePills/ServicePills";
 import ServiceGrid from "./ServiceGrid/ServiceGrid";
 import Footer from "./Footer/Footer";
